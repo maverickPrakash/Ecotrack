@@ -1,0 +1,28 @@
+#feedback{
+
+    width: 80%;
+    margin: 2% auto;
+    text-align: center;
+}
+
+#feedback  form{
+    display: block;
+    text-align: left;
+}
+#feedback input {
+    width: 100%;
+ }
+
+ #feedback textarea{
+    width: 100%;
+ }
+ #feedback button{
+    border: 2px solid black;
+    background-color: #00ff7d;
+    color: black;
+    width: 115px;
+    padding: 14px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+ }

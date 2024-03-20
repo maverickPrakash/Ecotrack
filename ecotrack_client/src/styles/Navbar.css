@@ -1,0 +1,42 @@
+/* Navbar Styles */
+nav {
+    background-color: rgb(27, 64, 52); /* Dark background */
+    overflow: hidden; /* Ensures the navbar links stay in the nav bar */
+/* Padding around the navbar for spacing */
+    position:sticky; /* Fixed position */
+    top: 0; /* Align to the top of the page */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensures navbar stays on top of other content */
+
+    
+  }
+  nav ul{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  nav a {
+    float: left; /* Align links to the left */
+    color: white; /* Text color */
+    text-align: center; /* Center text inside the link */
+    padding: 20px 16px; /* Padding inside each link */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 17px; /* Font size of the links */
+  }
+  
+  nav a:hover {
+    background-color: rgb(133, 255, 137); /* Color change on hover */
+    color: black; /* Text color change on hover */
+  }
+  
+  /* Mobile responsive adjustments */
+  @media screen and (max-width: 600px) {
+    nav a {
+      float: none; /* Stack links vertically on small screens */
+      display: block; /* Full-width links */
+    }
+  }
+  

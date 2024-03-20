@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:wght@100;500;900&display=swap');
+
+.home-container {
+  font-family: "Lora", serif;
+  
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffedd6;
+  
+  }
+  
+  .text-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .image-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: for rounded corners */
+  }
+
+  .dataContainer{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutContainer{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../assets/r2.jpg);
+    background-position: center;
+   
+  }
+  .about-section{
+    font-family: "Lora", serif;
+    color: white;
+    margin: auto;
+    width: 40%; 
+    padding: 5%;
+    text-align: center;
+  }
+  .bgAboutColour{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 50vh;
+  }
+
+  .about-section h1{
+    font-family: "Lora", serif;
+    font-size: 300%;
+    color: #00ff7d;
+  }
+
+  .about-section a{
+    border: 2px solid black;  
+    background-color: #00ff7d;
+    color: black;
+   
+
+
+    width: 115px;
+    height: 25px;
+    text-decoration: none;
+    padding: 14px;
+    text-align: center;
+    border-radius: 5px;
+
+    font-weight: bold;
+    line-height: 100px;
+  }
+
+  .about-section a:hover{
+    color: white;
+    background-color: rgb(27, 64, 52);
+   
+  }
+  .newsButton{
+    border: 2px solid black;  
+    background-color: #00ff7d;
+    color: black;
+    width: 140px;
+    
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+
+    font-weight: bold;
+    margin-bottom: 5%;
+
+  }
+
+  .newsButton:hover{
+    color: white;
+    background-color: rgb(27, 64, 52);
+   
+  }
+  .Videos{
+    width: 80%;
+    justify-content: space-around;
+    display: flex;
+    margin: auto;
+    }
+    .Videos .Videoframe{
+       width: 32%;
+       margin: 3% 0;
+    
+    }
+    
+    .Videos .Videoframe iframe{
+        width: 98%;
+     
+     }
+    
+    
+    .VideosConatiner a{
+    margin-top: 5% ;
+    }
+    .VideosConatiner{
+    margin: auto;
+    text-align: center;
+    }

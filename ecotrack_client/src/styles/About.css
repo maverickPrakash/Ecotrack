@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:wght@100;500;900&display=swap');
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    height: 100vh;
+    font-family: "Lora";
+  }
+  #background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .bg{
+    background-color: hsl(34, 100%, 92% / 30%);
+    height: 100vh;
+    width: 100vw;
+  }
+ 
+  /* Styles for the content section */
+  .about-content {
+    color: rgb(0, 0, 0);
+    margin: 10% auto;
+    padding: 20px;
+    background-color:  rgba(254,237,214, 0.5);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 91); 
+    width: 80%;
+    text-align: center;
+  
+    
+  }
+
+  
+  /* Styles for the title */
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the description text */
+  .about-description p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  /* Styles for the image */
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
