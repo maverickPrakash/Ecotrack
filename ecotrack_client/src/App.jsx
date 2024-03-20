@@ -1,6 +1,7 @@
 import './App.css';
 import {Routes, Route} from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import Register from './pages/Register';
 import Login from './pages/Login';
@@ -42,6 +43,7 @@ function App() {
         <Route path='/feedback' element={<Feedback />} />
 
       </Routes>
+      <Footer />
       </UserContextProvider>
     </AuthProvider>
   )

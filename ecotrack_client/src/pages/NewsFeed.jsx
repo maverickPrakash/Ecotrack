@@ -15,7 +15,7 @@ export default function NewsFeed() {
   const filteredNewsData = newsData.filter(article => article.urlToImage !== null && article.urlToImage !== ""  );
 
   return (
-    <div style={{width:"80%", margin:"auto", textAlign:"center"}}>
+    <div style={{width:"80%", margin:"2% auto", textAlign:"center"}}>
       <h1>Environmental News Feed</h1>
       <h2>Keep Yourself Informed on Eco News!</h2>
       <ul className="news-container">

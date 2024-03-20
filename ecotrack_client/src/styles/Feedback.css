@@ -3,6 +3,7 @@
     width: 80%;
     margin: 2% auto;
     text-align: center;
+    height: 70vh;
 }
 
 #feedback  form{
@@ -11,6 +12,7 @@
 }
 #feedback input {
     width: 100%;
+    margin-bottom: 2%;
  }
 
  #feedback textarea{

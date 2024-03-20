@@ -2,8 +2,11 @@ import React from 'react';
 import { GoogleMap, useJsApiLoader, Marker,InfoWindow  } from '@react-google-maps/api';
 
 const containerStyle = {
-  width: '100%',
-  height: '80vh'
+  width: '80%',
+  height: '75vh',
+  margin:"auto",
+  padding: "2%",
+  boxShadow: "rgba(149, 157, 165, 1) 0px 8px 24px"
 };
 
 const center = {
@@ -31,7 +34,7 @@ export default function LocalSustainabilityMap() {
   if (!isLoaded) return <div>Loading Google Maps API</div>;
 
   return (
-    <div style={{width:"80%", margin:"auto"}}>
+    <div style={{width:"80%", margin:" 2% auto"}}>
       <h1>Local Sustainability Map</h1>
       
       <GoogleMap
