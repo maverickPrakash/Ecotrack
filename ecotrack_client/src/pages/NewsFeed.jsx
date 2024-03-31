@@ -20,7 +20,7 @@ export default function NewsFeed() {
       <h2>Keep Yourself Informed on Eco News!</h2>
       <ul className="news-container">
         {filteredNewsData.map((article, index) => (
-          console.log(article),
+        
        
           <li className="news-item" key={index}>
             <div className="news-image">

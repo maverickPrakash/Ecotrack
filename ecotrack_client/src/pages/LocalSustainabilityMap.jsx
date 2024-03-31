@@ -34,7 +34,7 @@ export default function LocalSustainabilityMap() {
   if (!isLoaded) return <div>Loading Google Maps API</div>;
 
   return (
-    <div style={{width:"80%", margin:" 2% auto"}}>
+    <div style={{width:"100%", margin:" 2% auto"}}>
       <h1>Local Sustainability Map</h1>
       
       <GoogleMap

@@ -1,0 +1,10 @@
+.ShowData{
+    width: 80%;
+    margin: 2% auto;
+    
+}
+.BarGraph , .PieGraph{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 2%;
+    margin: 2%;
+}

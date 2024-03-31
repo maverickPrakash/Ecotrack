@@ -13,6 +13,7 @@ export default function Videos() {
         <div className='shortVideoframe'>
             
             <iframe width="426" height="600" src="https://www.youtube.com/embed/o_hTTOmfh_w" title="What is Carbon Footprint? 🌎 🦶🏿" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h3>What is Carbon Footprint?</h3>
         </div>
         <div className='shortVideoframe'>
             <iframe width="426" height="600" src="https://www.youtube.com/embed/q2b-qBeotvE" title="What is Carbon footprint 👣?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

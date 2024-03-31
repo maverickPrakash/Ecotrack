@@ -1,0 +1,25 @@
+#carbonFootPrint{
+    
+    width: 80%;
+}
+
+
+
+#carbonFootPrint input{
+    width: 80%;
+}
+#carbonFootPrint label{
+    width: 100%;
+}
+
+fieldset{
+    width: 100%;    
+}
+
+
+
+.formHousing{
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+}

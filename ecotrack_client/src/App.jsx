@@ -17,6 +17,7 @@ import { AuthProvider } from '../context/AuthContext';
 import NewsFeed from './pages/NewsFeed';
 import Videos from './pages/Videos';
 import Feedback from './pages/Feedback';
+import ShowCarbonCalculatedData from './pages/ShowCarbonCalculatedData';
 
 
 
@@ -41,6 +42,9 @@ function App() {
         <Route path='/api/news' element={<NewsFeed />} />
         <Route path='/Videos' element={<Videos />} />
         <Route path='/feedback' element={<Feedback />} />
+
+        <Route path='/calculated' element={<ShowCarbonCalculatedData  />} />
+
 
       </Routes>
       <Footer />
